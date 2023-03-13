@@ -8,7 +8,7 @@ const Todo = ({ todo, handleSetComplete, handleDelete }) => {
                 {
                     completed ? (
                         <div onClick={() => handleSetComplete(id)} className="bg-green-700 p-1 rounded-full cursor-pointer">
-                            <img className="h-4 w-4" src="../check-icon.svg" alt="Check Icon" />
+                            <img className="h-4 w-4" src="./check-icon.svg" alt="Check Icon" />
                         </div>
                     ) : (
                         <span onClick={() => handleSetComplete(id)} className="border-solid border border-gray-500 rounded-full p-3 cursor-pointer"></span>
