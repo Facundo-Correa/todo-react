@@ -8,7 +8,7 @@ function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: 'Watch the next Movie',
+      title: 'Watch the next Marvel Movie',
       completed: false,
     },
     {
